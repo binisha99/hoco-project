@@ -17,7 +17,7 @@ export default function HeroSection() {
           key={product.index}
           className="relative bg-gradient-to-r from-primary-item_right_dark via-primary-item_right_middle to-primary-item_right_light  p-10 w-full md:w-[290px] rounded-md min-h-[unset] md:min-h-[253px]"
         >
-          <button className="bg-button-button_gray px-4 max-w-[77px] py-2 absolute top-2 left-3 rounded-md">
+          <button className="bg-[#DEDAD4] px-4 min-w-[85px] py-2 absolute top-2 left-3 rounded-3xl">
             {product.product_number}
           </button>
           <img
