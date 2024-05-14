@@ -2,7 +2,13 @@ import { useState } from 'react';
 import { AiOutlinePlus } from 'react-icons/ai';
 import { LuMinus } from 'react-icons/lu';
 
-export default function Accordion({ title, answer }) {
+export default function Accordion({
+  title,
+  answer,
+}: {
+  title: string;
+  answer: string;
+}) {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   const toggleAccordion = () => {
